@@ -1,5 +1,8 @@
+# build files
 node_modules
 /.build/*
 .ftpauth
-/index.html
 settings.json
+
+# temporary files
+*~
