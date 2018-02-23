@@ -21,17 +21,12 @@ if ($array[1] == 'index.php') {
   $currentPage = $array[1];
 }
 
-
 /****************************
 CREATE THE CONFIG ARRAY
 *****************************/
 
 return [
   'debug' => false,
-
-  // Head meta tag info
-  'title_pre'    => '',
-  'title_post'   => ' | The Bitcoin Cash Fund',
 
   // Set the filesystem directory variables
   'fs_base'      => $base_dir . '/',

@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(en|es|it|nl|pt|ja|zh)/(.*)$ $2?lang=$1

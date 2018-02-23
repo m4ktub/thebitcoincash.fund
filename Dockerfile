@@ -1,3 +1,4 @@
-FROM nginx
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY html/ /usr/share/nginx/html/
+FROM php:7.0-apache
+COPY html/ /var/www/html/
+
+RUN a2enmod rewrite

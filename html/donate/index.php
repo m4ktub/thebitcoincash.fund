@@ -1,4 +1,5 @@
 <?php $config = include('../_config.php'); ?>
+<?php include('../_tx.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">

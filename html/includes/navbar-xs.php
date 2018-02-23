@@ -1,8 +1,8 @@
 <!-- Mobile Navigation Bar -->
 <div id="navbar-xs" class="hidden-md hidden-lg">
   <div id="navbar-xs-brand">
-    <a href="<?= $config['base_url']; ?>" title="The Bitcoin Cash Fund">
-      <img src="<?= $config['svg_dir']; ?>bcf_logo.svg" alt="The Bitcoin Cash Fund" class="img-responsive">
+    <a href="<?= $config['base_url']; ?>" title="<?= tx('title') ?>">
+      <img src="<?= $config['svg_dir']; ?>bcf_logo.svg" alt="<?= tx('title') ?>" class="img-responsive">
     </a>
   </div>
   <button id="navbar-xs-menu-toggle" class="btn">
