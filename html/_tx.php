@@ -4,6 +4,7 @@
  */
 if (isset($_GET["lang"])) {
     $lang = $_GET["lang"];
+    $config['base_url'] .= $lang . "/";
 } else {
     $lang = "en";
 }
