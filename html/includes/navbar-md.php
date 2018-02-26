@@ -36,27 +36,15 @@
             <img src="<?= $config['svg_dir']; ?>language_select_caret.svg" class="languageSelect-openerCaret">
           </div>
           <ul class="languageSelect-list">
+<?php
+     foreach($LANG_NAMES as $code => $name) {
+?>
             <li class="languageSelect-listItem">
-              <a href="<?= $config['base_url']; ?>en/">English</a>
+              <a href="<?= $config['base_url'] . $code ?>/"><?= $name ?></a>
             </li>
-            <li class="languageSelect-listItem">
-              <a href="<?= $config['base_url']; ?>es/">Español</a>
-            </li>
-            <li class="languageSelect-listItem">
-              <a href="<?= $config['base_url']; ?>it/">Italiano</a>
-            </li>
-            <li class="languageSelect-listItem">
-              <a href="<?= $config['base_url']; ?>nl/">Nederlands</a>
-            </li>
-            <li class="languageSelect-listItem">
-              <a href="<?= $config['base_url']; ?>pt-PT/">Português</a>
-            </li>
-            <li class="languageSelect-listItem">
-              <a href="<?= $config['base_url']; ?>ja/">日本語</a>
-            </li>
-            <li class="languageSelect-listItem">
-              <a href="<?= $config['base_url']; ?>zh/">中文</a>
-            </li>          
+<?php
+     }
+?>
           </ul>
         </li>
       </ul>
