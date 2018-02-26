@@ -9,6 +9,20 @@ if (isset($_GET["lang"])) {
 }
 
 /**
+ * Native names for languages
+ */
+
+$LANG_NAMES = array(
+    'en' => 'English',
+    'es' => 'Español',
+    'it' => 'Italiano',
+    'nl' => 'Nederlands',
+    'pt' => 'Português',
+    'ja' => '日本語',
+    'zh' => '中文',
+);
+
+/**
  * Load strings
  */
 include('locales/' . $lang . '.php');

@@ -2,17 +2,17 @@
 <?php include('../_tx.php'); ?>
 
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="<?= $lang ?>" prefix="og: http://ogp.me/ns#">
   <head>
     <?php
     $headInfo = [
-      'title'       => 'Donate',
-      'description' => '',
+      'title'       => tx('donate_title'),
+      'description' => tx('donate_description'),
       'url'         => '',
       'og_img'      => 'https://thebitcoincash.fund/assets/img/bcf_opengraph.jpg'
     ]; ?>
     <?php include($config['include_dir'] . 'head.php'); ?>
-    <title><?= $headInfo['title'] . $config['title_post'] ?></title>
+    <title><?= tx($config['current_page'] . '_title') . tx('title_post') ?></title>
     <script>
       $().ready(function() {
         var clipboard = new Clipboard('.donateAddress-btn');
@@ -42,17 +42,17 @@
             <source srcset="<?= $config['svg_dir']; ?>donate_hero_mobile.svg" />
             <img src="<?= $config['svg_dir']; ?>donate_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
-          <h1 class="hero-heading">A donation to the BCF is an investment in your future</h1>
-          <p class="hero-lead">If we succeed, so does everyone.</p>
+          <h1 class="hero-heading"><?= tx('donate_heading') ?></h1>
+          <p class="hero-lead"><?= tx('donate_lead') ?></p>
         </div>
       </div>
       <div class="donate">
         <div class="container donate-wrapper">
           <div class="row donateQr-wrapper">
             <div class="col-md-8">
-              <h2>Donate</h2>
+              <h2><?= tx('donate_address_title') ?></h2>
               <span class="border-white"></span>
-              <p class="donate-text">This is the official Bitcoin Cash Fund funding address. Simply copy and paste, or scan the address into your favourite wallet to donate. All donations are welcome.</p>
+              <p class="donate-text"><?= tx('donate_address_text') ?></p>
             </div>
             <div class="col-md-4">
               <img src="<?= $config['img_dir']; ?>qr_code.png" class="img-responsive donate-qr">
@@ -78,9 +78,9 @@
             <div class="col-md-5 col-md-push-7 donateTrans-imgCol">
               <img src="<?= $config['svg_dir']; ?>donate_transparency.svg" class="img-responsive donateTrans-img"></div>
             <div class="col-md-7 col-md-pull-5 donateTrans-txtCol">
-              <h3 class="donateTrans-heading">Transparency</h3>
-              <p>It's important that we are as transparent and accountable with your donations as possible. We are achieving that by making our entire spending history visible. If you are concerned about the use of funds, please take a look at the block explorer below and look to see where funds are being allocated.</p>
-              <a href="#" class="btn btn-lg donateTrans-btn">Explore The BCF Address</a>
+              <h3 class="donateTrans-heading"><?= tx('donate_transparency_title') ?></h3>
+              <?= tx('donate_transparency_text') ?>
+              <a href="#" class="btn btn-lg donateTrans-btn"><?= tx('donate_explore_address_button') ?></a>
             </div>
           </div>
         </div>

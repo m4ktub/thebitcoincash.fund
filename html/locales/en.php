@@ -41,6 +41,147 @@ $LANG = array(
     'home_help_text_3' => 'Want to help out but don\'t have time to get involved yourself? No problem! Your donations are what make this all possible.',
     'home_sponsors_title' => 'Sponsors',
     'home_sponsors_text' => 'These corporate sponsors are fully aligned with our goals and are pushing Bitcoin Cash adoption forward at a lightning pace.',
+    'about_title' => 'About Us',
+    'about_description' => '',
+    'about_heading' => 'Bitcoin Cash is the future',
+    'about_lead' => 'We are passionate group of professionals committed to the long-term success of this legendary crypto currency.',
+    'about_subhead' => 'We\'ve attracted a global team of dedicated, talented individuals with a vested interest in promoting Bitcoin Cash.',
+    'about_trust_title' => 'Humble Beginnings',
+    'about_trust_text' => '<p>The Bitcoin Cash Fund was formed in a Bitcoin Cash chat group in 2017. It was started by a simple request to the community to crowdfund a short promo video for Bitcoin Cash. The outpouring of support across the industry was phenomenal, and it became crystal clear that there was a need for an organisation to take on this role permanently.</p>
+<p>Since then we have incorporated as a non-profit organization and have pulled together a small team of hard-working professionals distributed across the globe to get things done.</p>',
+    'about_board_title' => 'The Board',
+    'about_role_member' => 'Board Member',
+    'about_role_executive_director' => 'Executive Director',
+    'about_role_technical_director' => 'Technical Director',
+    'about_role_event_coordinator' => 'Event Coordinator',
+    'about_role_sales_business_dev' => 'Sales &amp; Business Development',
+    'about_role_community_manager' => 'Community Manager',
+    'about_bio_ian' => 'Entered the Bitcoin space in 2010 and built up a mining farm and has been mining ever since.',
+    'about_bio_paul' => 'Entered the Bitcoin space in 2011, and founded the Bitcoin Cash Fund in November 2017.',
+    'about_bio_haipoyang' => 'Founded the highly successful mining pool ViaBTC, and led the R&amp;D team at ZeusMiner.',
+    'about_team_title' => 'Meet The Team',
+    'about_advisors_title' => 'Our Advisors',
+    'about_bio_jackcliu' => 'Formerly served as Chief Strategy Officer of OKCoin Group, and co-founded OKEx and OKLink.',
+    'about_bio_rogerver' => 'World\'s first Investor in Bitcoin startups and has been investing in Bitcoin startups since early 2011.',
+    'about_bio_peterrizun' => 'Chief Scientist for Bitcoin Unlimited, committed to researching the bottlenecks to Bitcoin scaling.',
+    'about_bio_mikekomaransky' => 'An investor and advocate of Bitcoin since 2010, Mike was a partner at DRW, and was Head of Trading at Cumberland Mining from 2014 until June 2017.',
+    'proposal_title' => 'Submit a Proposal',
+    'proposal_description' => '',
+    'proposal_heading' => 'Have a brilliant marketing idea?',
+    'proposal_lead' => 'If you have an idea how to spread adoption of Bitcoin Cash, we\'d like to help you fund it.',
+    'proposal_intro_title' => 'What we\'re looking for',
+    'proposal_intro_lead' => 'We are looking to promote any non-profit project that will help promote the adoption of Bitcoin Cash.',
+    'proposal_intro_text' => '<p>Examples of projects we\'re funding now are Bitcoin Cash video tutorials, a BCH-specific JavaScript library and an info pack to help businesses adopt BCH. We\'ve previously funded the incredible <a href="https://txhighway.com/" target="_blank">TX Highway</a>, as well as Bitcoin Cash meetups all over the world.</p>
+<p>If you have an idea like this that you think will help make Bitcoin Cash the future of money, submit the form below and we\'ll evaluate your proposal.</p>',
+    'proposal_principles_title' => 'SMART Principles',
+    'proposal_principles_text' => '<p class="proposalForm-text">Use S.M.A.R.T Principles when writing your proposal:</p>
+<ul class="proposalForm-list">
+  <li><strong>Specific</strong> - Well defined. Clear to anyone that has a basic knowledge of the project.</li>
+  <li><strong>Measurable</strong> - Know if the goal is obtainable. Find out when you have achieved your goal</li>
+  <li><strong>Agreed Upon</strong> - Agreement with all the stakeholders what the goals should be.</li>
+  <li><strong>Realistic</strong> - Within the availability of resources, knowledge and time.</li>
+  <li><strong>Time-bound</strong> - Enough time to achieve the goal. Not too much time, which can affect project performance</li>
+</ul>',
+    'proposal_examples_title' => 'Example Proposals',
+    'proposal_examples_text' => '<p class="proposalForm-text">To get an idea of how to fill out the form below, take a look at these accepted proposals from other community members.</p>
+<ul class="proposalForm-list">
+  <li><a href="https://github.com/cranau/FPR/blob/f06ec2b38b0ba11f35e669c592c4eef99456a5d2/fpr-0008.md" target="_blank">Bitcoin Cash Tutorial Series</a></li>
+  <li><a href="https://github.com/Wecx/Seatac-Bitcoin-Cash-Acceptance-Initiative/blob/master/BCF-FPR-SeatacBCH.md" target="_blank">Seatac BCH Acceptance Initiative</a></li>
+</ul>
+<p class="proposalForm-text">If you have any questions, feel free to contact us or come and talk to us at chat.thebitcoincash.fund</p>',
+    'proposal_form_required' => 'This field is required',
+    'proposal_form_required_name' => 'Please enter your name',
+    'proposal_form_required_email' => 'Please enter a valid email address',
+    'proposal_form_ph_name' => 'Name',
+    'proposal_form_ph_email' => 'Email',
+    'proposal_form_ph_project_name' => 'Project Name',
+    'proposal_form_ph_project_summary' => 'Project Summary',
+    'proposal_form_ph_stakeholders' => 'Stakeholders (List all people involved. Pseudonyms are ok.)',
+    'proposal_form_ph_resources' => 'Required Resources (Skills, manpower, connections, etc.)',
+    'proposal_form_ph_budget' => 'Itemized Budget & Funding Schedule',
+    'proposal_form_ph_timeline' => 'Timeline',
+    'proposal_form_ph_goals' => 'Goals (Define who you want to reach, as well as how and why.)',
+    'proposal_form_ph_info' => 'Additional Info (Optional)',
+    'proposal_form_submit_button' => 'Submit for Review',
+    'faqs_title' => 'Frequently Asked Questions',
+    'faqs_question_lead' => 'Q',
+    'faqs_answer_lead' => 'A',
+    'faqs_general_title' => 'General',
+    'faqs_proposals_title' => 'Proposals',
+    'faqs_volunteer_title' => 'Volunteer',
+    'faqs_donations_title' => 'Donations',
+    'faqs_bitcoincash_title' => 'Bitcoin Cash',
+    'faqs_general_q_1' => 'Why is the Bitcoin Cash Fund needed?',
+    'faqs_general_a_1' => '<p>Bitcoin Cash is like a huge distributed organisation with no CEO. Like any organisation with a product marketing and sales is needed to compete in the market. In the history of Bitcoin and Bitcoin Cash, there has never been an entity dedicated specifically to the adoption and awareness of the currency through marketing and sales activities.</p>
+<p>Marketing is important. Even if your product or service is mind-blowingly awesome, if no one knows it exists, then it will never succeed.</p>
+<p>The BCF exists to take on this role within the Bitcoin Cash ecosystem.</p>',
+    'faqs_general_q_2' => 'Where does the BCF get its funding from?',
+    'faqs_general_a_2' => '<p>The BCF has a diverse set of revenue sources including private donations from the community, sponsorship from key Bitcoin Cash businesses, and sales of merchandise.</p>',
+    'faqs_general_q_3' => 'Where is the Bitcoin Cash Fund based?',
+    'faqs_general_a_3' => '<p>We are a global organisation. Our team is distributed all across the globe and we work remotely together through the internet. The organisation was founded on the Isle of Man.</p>',
+    'faqs_proposals_q_1' => 'How do you decide whether a proposal will be funded or not?',
+    'faqs_proposals_a_1' => '<p>We use a standard process for evaluating each proposal on a case-by-case basis. The standard by which we evaluate projects can be found at <a href="https://github.com/The-Bitcoin-Cash-Fund/Docs/blob/master/FPR-Eval-Spec.md" target="_blank">https://github.com/The-Bitcoin-Cash-Fund/Docs/blob/master/FPR-Eval-Spec.md</a></p>',
+    'faqs_proposals_q_2' => 'What is the maximum budget for a project?',
+    'faqs_proposals_a_2' => '<p>There is no specifically defined maximum budget for a project. Each project is evaluated on a case-by-case basis. How trustworthy the person/team requesting the funding plays a large role in how much we will be willing to fund a project. Projects typically request around $1000 in BCH on average.</p>',
+    'faqs_proposals_q_3' => 'My business needs funding, can you fund us?',
+    'faqs_proposals_a_3' => '<p>We cannot fund a for-profit business for the benefit of that business. We can only fund profit projects that do not have a profit motive. That does not mean that we will not pay for services provided. For example we would potentially fund a project to create an educational video on Bitcoin Cash, even if it was made by a for-profit business. We would not provide funding for a business because the business needs funding.</p>',
+    'faqs_proposals_q_4' => 'How long will you take to respond to a proposal?',
+    'faqs_proposals_a_4' => '<p>We aim to respond within 48 hours. The best thing to do after (or before) you submit a proposal is to come and speak to us at <a href="https://chat.thebitcoincash.fund" target="_blank">https://chat.thebitcoincash.fund</a> and tell us more about your ideas.</p>',
+    'faqs_proposals_q_5' => 'What is the process once a proposal has been accepted?',
+    'faqs_proposals_a_5' => '<p>Once a proposal has been accepted, we will notify the project leader of this fact. If funding is needed immediately (not typically the case) then we will arrange payments to be made.</p>',
+    'faqs_proposals_q_6' => 'When will the cost of the project be funded after a proposal has been accepted?',
+    'faqs_proposals_a_6' => '<p>Typically the cost will be funded after the project has been completed. In cases where certain costs need to be covered upfront during the duration of the project, a receipt for this cost must be provided to us, and then we will be able to make payment for this specific cost.</p>',
+    'faqs_proposals_q_7' => 'Can I be paid for my time spent on a project?',
+    'faqs_proposals_a_7' => '<p>We are willing to cover the cost of time spent on a project at a reasonable market rate, but we require that some time is volunteered to the project. We will evaluate how much volunteered time is reasonable on a case-by-case basis.</p>
+<p>Obviously, we very much appreciate any volunteered time, as it means our resources can stretch further to drive further Bitcoin Cash adoption and awareness.</p>',
+    'faqs_volunteer_q_1' => 'How can I help?',
+    'faqs_volunteer_a_1' => '<p>There are lots of ways you can help. The first thing to do is go to <a href="../volunteer/">the volunteer page</a> and submit the form there to help us know a bit about yourself so we can better answer this question.</p>',
+    'faqs_volunteer_q_2' => 'Why should I volunteer my time?',
+    'faqs_volunteer_a_2' => '<p>The BCF is a non-profit organisation with the sole purpose of increasing adoption and awareness of Bitcoin Cash. All of our resources go towards achieving this. Every bit of volunteered time people offer to us allows us to stretch our resources even further and do even more.</p>',
+    'faqs_volunteer_q_3' => 'Can\'t I get paid for helping?',
+    'faqs_volunteer_a_3' => '<p>Depending on what you are doing, this is certainly possible. We suggest reading some of the Q&amp;A’s above to learn about the project proposals. The BCF does not exist to provide jobs to people, but if you have a great idea for something to work on, then we may be able to subsidise some of this cost. We always appreciate volunteered time though, as this allows us to stretch our resources further.</p>',
+    'faqs_volunteer_q_4' => 'What if I don\'t have any technical skills?',
+    'faqs_volunteer_a_4' => '<p>Not every project requires highly skilled people. Sometimes we just need boots on the ground. Hosting a meetup is also a great way of helping Bitcoin Cash.</p>',
+    'faqs_volunteer_q_5' => 'Don\'t you only need developers?',
+    'faqs_volunteer_a_5' => '<p>Boosting Bitcoin Cash adoption will need people with all different types of skill-sets. Bitcoin Cash isn’t just a technology, it is also a social and economic system. This means people from all walks of life can get involved.</p>',
+    'faqs_volunteer_q_6' => 'I don\'t have much free time but I would like to help. What can I do?',
+    'faqs_volunteer_a_6' => '<p>If you have the funds available, the BCF always appreciates donations to help us drive Bitcoin Cash adoption. Our funding address can be found on <a href="../donate/">the donate page</a>. Another things that really helps us is following our social media accounts, including Twitter and Facebook, and liking and retweeting our posts. This helps spread the word about Bitcoin Cash.</p>',
+    'faqs_donations_q_1' => 'How are donations being spent?',
+    'faqs_donations_a_1' => '<p>Our donation address can be found on <a href="../donate/">the donate page</a>. Currently we only accept Bitcoin Cash donations.</p>',
+    'faqs_donations_q_2' => 'How much should I donate?',
+    'faqs_donations_a_2' => '<p>We appreciate donations of any amount. People send us donations from $1 in BCH to many thousands of dollars in BCH.</p>',
+    'faqs_donations_q_3' => 'How are donations being spent?',
+    'faqs_donations_a_3' => '<p>Making sure that donations are spent in a financial prudent and productive way is extremely important to us. Donations, like the rest of our revenue, are spent in four main areas.</p>
+<ul>
+  <li>Funding community projects.</li>
+  <li>Funding community events, including meetups around the globe.</li>
+  <li>Funding internal marketing projects for Bitcoin Cash.</li>
+  <li>Funding the running of the BCF.</li>
+</ul>
+<p>We also make sure that there is some surplus funds leftover from our revenue each month, to make sure we are able to build up a balance that can ensure the BCF’s long-term sustainability.</p>
+<p>All funds of the BCF are currently kept as Bitcoin Cash.</p>',
+    'faqs_donations_q_4' => 'Can I claim the donation against my taxes?',
+    'faqs_donations_a_4' => '<p>We are a non-profit, but currently this is not possible. We are looking into it though.</p>',
+    'faqs_donations_q_5' => 'Can I donate in my local currency?',
+    'faqs_donations_a_5' => '<p>Currently we only accept donations in Bitcoin Cash. We may look into the possibility of accepting fiat donations in the future.</p>',
+    'faqs_bitcoincash_q_1' => 'What is Bitcoin Cash?',
+    'faqs_bitcoincash_a_1' => '<p>Check out this short video!</p>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jduVN643Prc" allowfullscreen=""></iframe>
+</div>',
+    'faqs_bitcoincash_q_2' => 'Is Bitcoin Cash the Same as Bitcoin (Core)?',
+    'faqs_bitcoincash_a_2' => '<p>Bitcoin Cash and Bitcoin Core were the same blockchain up until a specific block on August 1st 2017. At this point the network split into two separate networks commonly referred to as Bitcoin Cash and Bitcoin Core.</p>',
+    'faqs_bitcoincash_q_3' => 'Why did the Bitcoin network split?',
+    'faqs_bitcoincash_a_3' => '<p>There was a large disagreement within the Bitcoin community on what was the best method to grow the capacity of the network to allow more users. The disagreement ended in a split in the community and network.</p>
+<p>Bitcoin Cash follows the original scaling design for Bitcoin explained by Satoshi Nakamoto in 2008. This scaling design is to increase the capacity of the network as needed. Bitcoin Core uses a new, untested and incomplete scaling method of moving transactions off the blockchain, and only use the blockchain for settlement transaction by large institutions such as banks.</p>',
+    'faqs_bitcoincash_q_4' => 'What is the difference between Bitcoin Cash and Bitcoin (Core)?',
+    'faqs_bitcoincash_a_4' => '<p>Bitcoin Cash is a very cheap and reliable money system like Cash. Transactions cost less than 1c and are secured in the network in 10 minutes on average. Bitcoin Core transactions are expensive due to the limited capacity of the network, and can cost upwards of $50. The congestion on the Bitcoin Core network also means that transactions speeds are unreliable unless a very high fee is paid.</p>',
+    'faqs_bitcoincash_q_5' => 'Where can I find out more about Bitcoin Cash?',
+    'faqs_bitcoincash_a_5' => '<p>We suggest visiting <a href="http://www.bitcoincash.org/" target="_blank">bitcoincash.org</a> to learn more.</p>',
+    'faqs_bitcoincash_q_6' => 'Where can I buy some Bitcoin Cash?',
+    'faqs_bitcoincash_a_6' => '<p>There are numerous places to buy Bitcoin Cash all around the world. You can buy Bitcoin Cash directly at <a href="http://joinbitcoin.cash/user" target="_blank">joinbitcoin.cash/user</a></p>',
+    'faqs_bitcoincash_q_7' => 'Where can I find the Bitcoin Cash community?',
+    'faqs_bitcoincash_a_7' => '<p>The Bitcoin Cash community is extremely diverse and can be found many locations all around the world, including at meetups which can be found at <a href="http://joinbitcoin.cash/meetups" target="_blank">joinbitcoin.cash/meetups</a> and online at <a href="http://www.reddit.com/r/btc" target="_blank">reddit.com/r/btc</a>, <a href="http://chat.thebitcoincash.fund" target="_blank">chat.thebitcoincash.fund</a> and <a href="http://joinbitcoin.cash/community" target="_blank">joinbitcoin.cash/community</a>.</p>',
 );
 
 ?>

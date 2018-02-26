@@ -2,21 +2,21 @@
 <?php include('../_tx.php'); ?>
 
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="<?= $lang ?>" prefix="og: http://ogp.me/ns#">
   <head>
     <?php
     $headInfo = [
-      'title'       => 'Volunteer Your Time',
-      'description' => '',
+      'title'       => tx('volunteer_title'),
+      'description' => tx('volunteer_description'),
       'url'         => '',
       'og_img'      => 'https://thebitcoincash.fund/assets/img/bcf_opengraph.jpg'
     ]; ?>
     <?php include($config['include_dir'] . 'head.php'); ?>
-    <title><?= $headInfo['title'] . $config['title_post'] ?></title>
+    <title><?= tx($config['current_page'] . '_title') . tx('title_post') ?></title>
     <script>
       $().ready(function() {
         $.extend(jQuery.validator.messages, {
-          required: 'This field is required'
+          required: '<?= tx('volunteer_form_required') ?>'
         });
         $("#volunteerForm-form").validate({
           rules: {
@@ -27,8 +27,8 @@
             }
           },
           messages: {
-            Name: "Please enter your name",
-            Email: "Please enter a valid email address"
+            Name: "<?= tx('volunteer_form_required_name') ?>",
+            Email: "<?= tx('volunteer_form_required_email') ?>"
           }
         });
       });
@@ -47,15 +47,15 @@
             <source srcset="<?= $config['svg_dir']; ?>volunteer_hero_mobile.svg" />
             <img src="<?= $config['svg_dir']; ?>volunteer_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
-          <h1 class="hero-heading">Ready to put your skills to use?</h1>
-          <p class="hero-lead">We've got active projects right now that need the help of talented people like you.</p>
+          <h1 class="hero-heading"><?= tx('volunteer_heading') ?></h1>
+          <p class="hero-lead"><?= tx('volunteer_lead') ?></p>
         </div>
       </div>
       <div class="hero-subhead">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <p>This is a great opportunity to not only earn some Bitcoin Cash, but also help raise the value of the BCH you already own.</p>
+              <p><?= tx('volunteer_subhead') ?></p>
             </div>
           </div>
         </div>
@@ -64,59 +64,58 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5 volunteerForm-txtCol">
-              <h2 class="volunteerForm-heading">We need you!</h2>
-              <p class="volunteerForm-text">We need people with skill like the ones listed in the form to volunteer some of their time for projects to bring awareness and adoption of Bitcoin Cash. If this is you get in contact with me, or come and talk to us at chat.thebitcoincash.fund.</p>
-              <p class="volunteerForm-text">We can also budget some amount of funds for work, but priority will be given to people willing to do at least partially volunteer their time.</p>
-              <h2 class="volunteerForm-heading">If you don't have skills</h2>
-              <p class="volunteerForm-text">If you don't have any of these skills, that doesn't mean we don't need your help. There are lots of other things that projects need help with (i.e. sending out stickers, handing out leaflets, writing education content etc.).</p>
+              <h2 class="volunteerForm-heading"><?= tx('volunteer_weneedyou_title') ?></h2>
+              <?= tx('volunteer_weneedyou_text') ?>
+              <h2 class="volunteerForm-heading"><?= tx('volunteer_noskills_title') ?></h2>
+              <?= tx('volunteer_noskills_text') ?>
             </div>
             <div class="col-md-7 volunteerForm-frmCol">
               <form id="volunteerForm-form" action="https://formcarry.com/s/HkK6QYWUG" method="POST">
-                <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Name" name="Name">
-                <input class="form-control input-lg volunteerForm-input" type="email" placeholder="Email" name="Email">
+                <input class="form-control input-lg volunteerForm-input" type="text" placeholder="<?= tx('volunteer_form_ph_name') ?>" name="Name">
+                <input class="form-control input-lg volunteerForm-input" type="email" placeholder="<?= tx('volunteer_form_ph_email') ?>" name="Email">
                 <fieldset class="volunteerForm-fieldset">
-                  <legend class="volunteerForm-fieldsetLegend">Your Skills</legend>
+                  <legend class="volunteerForm-fieldsetLegend"><?= tx('volunteer_form_legend_skills') ?></legend>
                   <div class="volunteerForm-fieldsetHalf">
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Project_Management">
-                        Project Management
+                        <?= tx('volunteer_form_skill_project_management') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Web_Development">
-                        Web Development
+                        <?= tx('volunteer_form_skill_web_development') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Graphic_Design">
-                        Graphic Design
+                        <?= tx('volunteer_form_skill_graphic_design') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Marketing">
-                        Marketing
+                        <?= tx('volunteer_form_skill_marketing') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Sales">
-                        Sales
+                        <?= tx('volunteer_form_skill_sales') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Writing">
-                        Writing
+                        <?= tx('volunteer_form_skill_writing') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Business_Onboarding">
-                        Business Onboarding
+                        <?= tx('volunteer_form_skill_business_onboarding') ?>
                       </label>
                     </div>
                   </div>
@@ -124,61 +123,61 @@
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Social_Media">
-                        Social Media
+                        <?= tx('volunteer_form_skill_social_media') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Translation">
-                        Translation
+                        <?= tx('volunteer_form_skill_translation') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Videography">
-                        Videography
+                        <?= tx('volunteer_form_skill_videography') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Audio">
-                        Audio
+                        <?= tx('volunteer_form_skill_audio') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Music">
-                        Music
+                        <?= tx('volunteer_form_skill_music') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="" name="Motion_Graphics">
-                        Motion Graphics
+                        <?= tx('volunteer_form_skill_motion_graphics') ?>
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
                         <input type="checkbox" value="">
-                        Other (Below)
+                        <?= tx('volunteer_form_skill_other') ?>
                       </label>
                     </div>
                   </div>
-                  <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Other Skills (optional)" value="" name="Other_Skills">
+                  <input class="form-control input-lg volunteerForm-input" type="text" placeholder="<?= tx('volunteer_form_ph_other_skills') ?>" value="" name="Other_Skills">
                 </fieldset>
                 <fieldset class="volunteerForm-fieldset">
-                  <legend class="volunteerForm-fieldsetLegend">Portfolio (Optional)</legend>
+                  <legend class="volunteerForm-fieldsetLegend"><?= tx('volunteer_form_legend_portfolio') ?></legend>
                   <div class="volunteerForm-fieldsetHalf">
-                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="GitHub" value="" name="GitHub">
-                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Website" value="" name="Website">
+                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="<?= tx('volunteer_form_ph_github') ?>" value="" name="GitHub">
+                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="<?= tx('volunteer_form_ph_website') ?>" value="" name="Website">
                   </div>
                   <div class="volunteerForm-fieldsetHalf">
-                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Twitter" value="" name="Twitter">
-                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Other" value="" name="Other">
+                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="<?= tx('volunteer_form_ph_twitter') ?>" value="" name="Twitter">
+                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="<?= tx('volunteer_form_ph_other') ?>" value="" name="Other">
                   </div>
                 </fieldset>
-                <textarea class="form-control input-lg volunteerForm-input" rows="7" placeholder="Additional Notes" name="Message"></textarea>
-                <input class="btn btn-lg volunteerForm-btn" type="submit" value="Send">
+                <textarea class="form-control input-lg volunteerForm-input" rows="7" placeholder="<?= tx('volunteer_form_ph_notes') ?>" name="Message"></textarea>
+                <input class="btn btn-lg volunteerForm-btn" type="submit" value="<?= tx('volunteer_form_send_button') ?>">
               </form>
             </div>
           </div>
