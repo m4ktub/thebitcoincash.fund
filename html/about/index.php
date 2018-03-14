@@ -62,7 +62,7 @@
                 <img src="<?= $config['img_dir']; ?>team_ian_descoteaux.jpg" class="img-responsive aboutTeam-photo">
                 <p class="aboutTeam-name">Ian Descôteaux</p>
                 <p class="aboutTeam-role"><?= tx('about_role_member') ?></p>
-                <p class="aboutTeam-bio"><?= tx('about_board_bio_ian') ?></p>
+                <p class="aboutTeam-bio"><?= tx('about_bio_ian') ?></p>
                 <p class="aboutTeam-social">
                   <a href="https://twitter.com/checksum0" target="_blank">@checksum0</a>
                 </p>
@@ -73,7 +73,7 @@
                 <img src="<?= $config['img_dir']; ?>team_paul_wasensteiner.jpg" class="img-responsive aboutTeam-photo">
                 <p class="aboutTeam-name">Paul Wasensteiner</p>
                 <p class="aboutTeam-role"><?= tx('about_role_member') ?></p>
-                <p class="aboutTeam-bio"><?= tx('about_board_bio_paul') ?></p>
+                <p class="aboutTeam-bio"><?= tx('about_bio_paul') ?></p>
                 <p class="aboutTeam-social">
                   <a href="https://twitter.com/PWasensteiner" target="_blank">@PWasensteiner</a>
                 </p>
@@ -84,7 +84,7 @@
                 <img src="<?= $config['img_dir']; ?>team_haipo_yang.jpg" class="img-responsive aboutTeam-photo">
                 <p class="aboutTeam-name">Haipo Yang</p>
                 <p class="aboutTeam-role"><?= tx('about_role_member') ?></p>
-                <p class="aboutTeam-bio"><?= tx('about_board_bio_haipoyang') ?></p>
+                <p class="aboutTeam-bio"><?= tx('about_bio_haipoyang') ?></p>
                 <p class="aboutTeam-social">
                   <a href="https://twitter.com/yhaiyang" target="_blank">@yhaiyang</a>
                 </p>
